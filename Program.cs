@@ -21,7 +21,6 @@ app.UseSwagger();
 app.UseSwaggerUI();
 app.MapControllers();
 
-
 app.MapGet("/", context => Task.Run(() => context.Response.Redirect("/swagger/index.html")));
 
 app.Run();

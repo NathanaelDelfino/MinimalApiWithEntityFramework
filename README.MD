@@ -28,3 +28,7 @@
     dotnet add package Swashbuckle.AspNetCore.Anotations
 ```
 
+
+### Importante 
+
+Depois gero um exemplo com a estrutura do migrations
